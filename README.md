@@ -112,3 +112,41 @@ Epoch 10: 7.75
 ### Generated Text
 
 **Temperature = 0.7**
+
+
+### Observations
+- Lower temperature → predictable output  
+- Higher temperature → more random output  
+- Larger hidden size improves learning  
+- Longer sequence length improves context  
+
+---
+
+## Q2: Mini Transformer Encoder
+
+### Steps
+- Tokenized input sentences  
+- Applied embedding layer  
+- Added positional encoding  
+- Used self-attention and multi-head attention  
+
+### Output
+- Generated contextual embeddings for input tokens  
+
+### Observation
+- Transformer captures relationships between words  
+- Contextual embeddings improve understanding of sequences  
+
+---
+
+## Q3: Scaled Dot-Product Attention
+
+### Output
+- Raw scores computed using QKᵀ  
+- Scaled scores using √dₖ  
+- Softmax applied to get attention weights  
+- Output computed as weighted sum of V  
+
+### Observation
+- Scaling stabilizes softmax  
+- Prevents large values and improves training
